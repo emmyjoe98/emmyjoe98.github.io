@@ -4,7 +4,7 @@ body {
 }
 
 header, nav, main, footer {
-    margin: 1.25rem auto;
+    margin: 1rem auto;
     max-width: 760px;
 }
 
@@ -12,17 +12,39 @@ header {
     background-color: teal;
     color: white;
     text-align: center;
-    padding: 1.5rem;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: .025px;
 }
 
 img {
+    position: absolute;
+    right: 275px;
+    top: 25px;
     float: right;
-    margin: 10px;
-    border: 1px solid black;
+    border-radius: 15px;
 }
 
 footer {
     background-color: teal;
     color: white;
     text-align: center;
+    border-radius: 15px;
+}
+
+hr { 
+    display: block;
+    margin-left: 255px;
+    margin-right: 275px;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+#lastup {
+    color: yellow;
+}
+
+h2 {
+    display: block;
+    margin-left: 255px;
 }
