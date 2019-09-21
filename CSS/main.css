@@ -9,7 +9,7 @@ header, nav, main, footer {
 }
 
 header {
-    background-color: navy;
+    background-color: teal;
     color: white;
     text-align: center;
     padding: 1.5rem;
@@ -22,7 +22,7 @@ img {
 }
 
 footer {
-    background-color: navy;
+    background-color: teal;
     color: white;
     text-align: center;
 }
