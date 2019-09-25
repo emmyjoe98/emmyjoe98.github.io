@@ -1,6 +1,7 @@
 body {
     font-size: 18px;
     line-height: 1.5;
+    font-family: 'Dosis', sans-serif;
 }
 
 header, nav, main, footer {
@@ -47,4 +48,8 @@ hr {
 h2 {
     display: block;
     margin-left: 255px;
+}
+
+h1, h2{
+    font-family: 'Mansalva', cursive;
 }
