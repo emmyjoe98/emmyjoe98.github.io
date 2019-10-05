@@ -12,6 +12,10 @@
     header, footer{
         border-radius: 10px;
     }
+    
+    header {
+        padding: 1rem;
+    } 
 
     header img {
         box-shadow: 0 0 30px grey;
@@ -26,8 +30,4 @@
         border-style: inset;
         border-width: 1px;
       } 
-      
-    header {
-        padding: 1rem;
-    } 
 }
