@@ -1,8 +1,8 @@
 body {
     font-size: 18px;
-    line-height: 1rem;
+    line-height: 1.5rem;
+    font-family: 'Dosis', sans-serif;
     height: 100%;
-    font-family: 'Roboto', sans-serif;
 }
 
 header, nav, main, footer {
@@ -15,34 +15,36 @@ header {
     margin-top: 10px;
 }
 
+header img {
+    width: 200px;
+    height: auto;
+}
 
 #lastup {
     color: yellow;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 1.5rem;
     margin: .15rem;
 }
 
-h3 {
+h2 {
     margin-bottom: 0.5rem;  
+}
+
+h1, h2{
+    font-family: 'Mansalva', cursive;
 }
 
 header, footer{
     text-align: center;
     background-color: teal;
-    color: white; 
-    font-family: 'Big Shoulders Display', cursive;
-    
+    color: white;
 }
 
 footer{
-    font-size: 20px;
-}
-
-a{
-    color: black;
+    font-size: 0.75rem;
 }
 
 footer a{
