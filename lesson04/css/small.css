@@ -5,24 +5,40 @@ body {
     height: 100%;
 }
 
-header, nav, main, footer {
+main, footer {
     margin: 0 auto;
     max-width: 45rem;
     padding: .5rem;
 }
 /* This declaration is keeping header and nav from beign 100%. Fix this ^^*/
-header {
-    margin-top: 10px;
+
+header, nav {
     background-color: #727B84;
-    color: white;
-    text-align: center;
-    width: 100%;
+    color: white;  
 }
 
-.header{
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headers {
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+
+
 }
+
+header img{
+    width: 80px;
+    height: auto;
+    border-radius: 50px;
+    margin: 8px 20px 0px 0px;
+}
+
 #lastup {
     color: black;
 }
@@ -30,7 +46,7 @@ header {
 h1 {
     font-size: 35px;
     margin: .15rem; 
-    padding: 15px 0px 0px 0px; 
+    padding: 15px 0px 0px 0px;
 }
 
 h2 {
@@ -70,4 +86,13 @@ li a{
     text-decoration: none;
     color: white;
     padding: 15px;
+ }
+
+ .infosection {
+     display: block;
+     border: 2px dashed black;
+     margin: 15px auto;
+     padding: 15px;
+     font-style: italic;
+     background-color: #F6F4DA;
  }
