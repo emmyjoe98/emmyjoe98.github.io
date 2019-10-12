@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Lesson 03 Assignment | Emily Eaton</title>
-    <meta name="description" content="This is the lesson 03 page for CIT 230">
+    <title>Lesson 04 Assignment | Emily Eaton</title>
+    <meta name="description" content="This is the lesson 04 page for CIT 230">
     <meta http-equiv="x-ua-compatible" content="ie-edge">
 
     <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text|PT+Sans&display=swap" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/middle.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -18,13 +20,14 @@
         <picture><img src="Images/logo.png" alt="Picture of black sun outline on a yellow background"></picture>
         <section class ="headers">
             <h1>On-The-Go Weather</h1>
-            <div>Here to help you stay updated on the go</div>
+            <h3>Here to help you stay updated on the go</h3>
         </section>
     </header>
-    <nav>
-        <ul>
-            <li> <a href="preston-4.html">Home</a></li>
-            <li> <a href="">Preston</a></li>
+    <nav class= "clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id ="primaryNav" class = "hide">
+            <li> <a href="">Home</a></li>
+            <li> <a href="preston-4.html">Preston</a></li>
             <li> <a href="">Soda Springs</a></li>
             <li> <a href="">Fish Haven</a></li>
             <li> <a href="">Storm Center</a></li>

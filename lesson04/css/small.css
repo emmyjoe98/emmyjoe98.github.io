@@ -28,8 +28,6 @@ header {
     height: auto;
     display: flex;
     flex-direction: column;
-
-
 }
 
 header img{
@@ -58,7 +56,8 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 15px;
+    font-style: italic;
 }
 
 footer{
@@ -76,23 +75,51 @@ p{
     font-family: 'PT Sans', sans-serif;
 }
 
-ul{
+nav ul{
     list-style-type: none;
     margin: 0;
-    padding: 25px 0px 10px 0px;
+    padding: 0;
 }
 
-li a{
-    text-decoration: none;
-    color: white;
+ .infosection {
+    display: block;
+    border: 1px dashed black;
+    margin: 10px auto;
     padding: 15px;
+    font-style: italic;
+    background-color: #F6F4DA;
+    max-width: 100%;
  }
 
- .infosection {
-     display: block;
-     border: 2px dashed black;
-     margin: 15px auto;
-     padding: 15px;
-     font-style: italic;
-     background-color: #F6F4DA;
+ .motto {
+    margin: 10px auto;
  }
+
+ nav button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+ }
+
+ nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+ }
+
+ nav ul li a:hover{
+     background-color: rgba(0,0,0,.4)
+}
+ 
+ nav ul.hide {
+     display: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ 

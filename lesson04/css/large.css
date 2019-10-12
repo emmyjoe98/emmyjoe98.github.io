@@ -1,9 +1,27 @@
-@media only screen and (min-width: 56em){
-    li{
-        display: inline;
-    }
-    
+@media only screen and (min-width: 64rem){
     li a{
         font-size: 20px;
     }
+
+    .infosection {
+        max-width: 90%;
+    }
+
+    header img {
+        width: 100%;
+        border-radius: 75px;
+    }
+
+    nav ul.hide {
+        display: inline;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
 }
